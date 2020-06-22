@@ -14,9 +14,9 @@ public class averageoflist {
 		int range=25;
 		for(int i=0;i<=range;i++)
 			arr.add(i);
-		int size=arr.size();
+		int size=arr.size()-1;
 		//int sum=0;
-		float res=getans(arr,range);
+		float res=getans(arr,size);
 		System.out.print(res);
 	}
 	public static float getans(List<Integer>ar,int range)
